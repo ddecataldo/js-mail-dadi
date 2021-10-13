@@ -20,21 +20,22 @@ let emailEsistente = false;
 
 for(i = 0; i < listaUtenti.length; i++){
 
-    const utente = listaUtenti[i]
+    const utente = listaUtenti[i];
 
     // listaUtenti[0] = davide@gmail.com
     // listaUtenti[1] = fabrizio@gmail.com
     // listaUtenti[2] = bea@gmail.com
 
-    console.log(emailEsistente) 
+    // console.log(emailEsistente) 
 
-    if( emailUtente.toLowerCase === utente.toLowerCase){
+    if(emailUtente.toLowerCase() === utente.toLowerCase()){
         emailEsistente = true;
     }
     
     // console.log(emailEsistente) 
-
 }
+
+    console.log(emailEsistente) 
 
 // stampare messaggio in base all'esito della verifica
 
